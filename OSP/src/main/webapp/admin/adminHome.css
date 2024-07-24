@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #ffeb3b;
+    padding: 20px 0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    transition: width 0.3s;
+    z-index: 1000;
+}
+
+.sidebar.collapsed {
+    width: 0px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #fff;
+    border-radius: 0px 50px 50px 10px;
+    padding-right: 20px;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+.sidebar-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    z-index: 1001;
+}
+
+.dashboard-container {
+    display: flex;
+}
+
+.owner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.owner p {
+	padding: 0 10px;
+	float: right;
+}
+
+.owner p span {
+	font-weight: 600;
+}
+
+.owner i {
+	padding: 0 10px;
+	float: right;
+	font-size: 20px;
+}
+
+.content {
+    flex-grow: 1;
+    margin-left: 220px;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+.content.expanded {
+    margin-left: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    margin-right: 10px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.reservations {
+    background-color: #f8d7da;
+}
+
+.guests {
+    background-color: #ffeeba;
+}
+
+.next-seven-days {
+    background-color: #d4edda;
+}
+
+.analytics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chart, .quick-details {
+    flex: 1;
+    margin: 0 10px;
+}

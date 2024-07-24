@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #f6f7f9;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.nav {
+	height: 15vh;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left h1 {
+	color: #5001b3;
+}
+
+.right a {
+	margin: 0px 5px;
+	cursor: pointer;
+	color: blue;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #6001d3;
+}
+
+.header h2 {
+    font-size: 20px;
+    color: #5001b3;
+}
+
+.header p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.pbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pro {
+	width: 20%;
+	color: red;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group label span {
+	color: red;
+	font-weight: 800;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields input {
+    flex: 1;
+}
+
+.dob-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.dob-fields input {
+    flex: 1;
+}
+
+.form-group small {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #6001d3;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #5001b3;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.success-message {
+	color: green;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p a {
+    color: #6001d3;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 7px 60px;
+	background: #6001d3;
+	color: white;
+	font-family: Arial, sans-sarif;
+	font-size: 16px;
+}
+
+.btn:hover {
+	background-color: #5001b3;
+	text-decoration: none;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}

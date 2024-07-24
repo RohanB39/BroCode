@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.payment-completed-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.success-message, .error-message {
+    margin-bottom: 20px;
+}
+
+.success-message h2, .error-message h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.success-message p {
+    color: #555;
+}
+
+.success-message i, .error-message i {
+    font-size: 36px;
+    color: #28a745; 
+}
+
+.error-message i {
+    color: #dc3545;
+}
+
+.back-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}

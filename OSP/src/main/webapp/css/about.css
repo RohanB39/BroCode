@@ -1,0 +1,197 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e729e7;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    color: white;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: white;
+}
+
+.nav-container {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5001b3;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #5001b3;
+}
+
+.content {
+	height: 100vh;
+	width: 100%;
+	background: #ffe3c8;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;	
+}
+
+.left {
+	height: 100vh;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main-content {
+	margin-top: 240px;
+	line-height: 45px;
+}
+
+.main-content h3 {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 200;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-content h1 {
+	text-transform: uppercase;
+	font-size: 70px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-content h2 {
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Cedarville Cursive", cursive;
+	transform: rotate(-10deg);
+	margin-left: 120px;
+	font-size: 40px;
+	font-weight: 800;
+	color: #db6d00;
+}
+
+.location {
+	margin-top: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.location i {
+	font-size: 29px;
+	color: #db6d00;
+}
+
+.location p {
+	font-weight: 600;
+}
+
+.middle {
+	height: 100vh;
+	width: auto;
+}
+
+.user {
+	margin-top: 50px;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user b {
+	margin: 0px 10px;
+	color: #db6d00;
+}
+
+.white-round {
+	height: 83vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.white-circle {
+	height: 50vh;
+	width: 45%;
+	background: white;
+	border-radius: 100%;
+	margin-top: 10%;
+}
+
+.white-round img {
+	height: 90%;
+	margin-top: -60%;
+	margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
