@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Bro Code</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-123456' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; frame-src https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/;">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="brand"><i class="fa-solid fa-code"></i>brocode.java</a>
+           <!-- <div class="navbar-links">
+                <a href="#">Home</a>
+                <a href="#">Courses</a>
+                <a href="#">Tutorial</a>
+                <a href="#">Blog</a>
+                <a href="#">Notes</a>
+                <a href="#">Contact</a>
+                <a href="#">My Gear</a>
+                <a href="#">Work With Us</a>
+            </div> -->
+            
+            <div class="navbar-right">
+                <div class="navbar-theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="navbar-auth">
+                    <a href="login.html" class="login">Login</a>
+                    <a href="signup.html" class="signup">Signup</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="login-container">
+        <div class="login-image">
+            <img src="image/login_brocode.jpeg" alt="Login Image">
+        </div>
+        <div class="login-form">
+            <h1 class="whiteheading">brocode.com</h1>
+            <p>Welcome back!</p>
+           <!--  <button class="google-signin">Sign in with Google</button>
+            <p>OR LOGIN WITH EMAIL</p> -->
+            <form action="Login" method="post">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <a href="forgot.html" class="forgot-password">Forgot Password?</a>
+                <div class="recaptcha">
+                    <div class="g-recaptcha" data-sitekey="6LfToOQpAAAAALxXyZr4iEGWXCwQU8OC_ez8gYDT"></div>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
